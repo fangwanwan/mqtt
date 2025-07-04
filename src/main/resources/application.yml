@@ -1,0 +1,8 @@
+spring:
+  mqtt:
+    username: admin
+    password: fy123123
+    url: tcp://127.0.0.1:1883
+    subClientId: sub_client_id_123
+    subTopic: fy/iot/test
+    pubClientId: pub_client_id_123
