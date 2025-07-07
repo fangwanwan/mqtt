@@ -2,11 +2,9 @@ package com.faye.mqtt.service;
 
 import com.faye.mqtt.gateway.MqttGateway;
 import lombok.AllArgsConstructor;
-import org.eclipse.paho.client.mqttv3.MqttMessage;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 @AllArgsConstructor
 public class MqttMessageSender {
 
